@@ -22,7 +22,7 @@ void displaybuffer()
 	int i;
 	if(rear<0)
 	{
-		printf("Buffer is Empty.\n\n");
+		printf("Buffer is null.\n\n");
 		return;
 	}
 	printf("Buffer : ");
